@@ -79,3 +79,10 @@ hr {
 	width: 100%;
 	padding: .3em;
 }
+
+.text-conatainer {
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+	margin-bottom: 10px;
+}
+}
