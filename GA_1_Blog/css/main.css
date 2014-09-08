@@ -10,16 +10,15 @@ body {
 p {
 	font-size: 14px;
 	color: #666666;
+	max-width: 900px;
 }
+
 
 h2 {
 	margin:5px;
+	padding-top: 5px;
 }
 
-hr {
-	line-height: 1px;
-	opacity: .5;
-}
 
 #title {
 	color: #EE0000;
@@ -27,11 +26,15 @@ hr {
 
 #topNav a {
 	padding-bottom: .2em;
-	padding-left: .3em;
 	color: #CDCDCD;
 	margin-right: .8em;
 	text-decoration: none;
 	border-bottom: 1.5px solid #CDCDCD;
+}
+
+#topNav {
+	padding-bottom: 1em;
+	font-size: 1.05em;
 }
 
 #mainContent {
@@ -47,14 +50,21 @@ hr {
 #footer {
 	color:#CDCDCD;
 	font-size: .9em;
+	padding-top: 25px;
+}
+
+#copyright{
+	color:#CDCDCD;
 }
 
 .firstLetter {
+  position: relative;
   float: left;
   font-size: 80px;
   line-height: 0.5;
-  margin:; 0.205em 0.153em 0 0;
-  padding: 10px;
+  padding-top: 10px;
+  margin-bottom: 12px;
+  margin-right: 8px;
   color: #CDCDCD;
 }
 
@@ -66,8 +76,15 @@ hr {
 }
 
 .button {
+	position: relative;
 	float: right;
 	margin-bottom: 25px;
+}
+
+.textContainer {
+	border-bottom: 2px solid #E8E8E8;
+	padding-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 .fadedText {
@@ -76,6 +93,11 @@ hr {
 
 .heroImage {
 	height: 300px;
-	width: 100%;
 	padding: .3em;
+}
+
+.text-conatainer {
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+	margin-bottom: 10px;
 }
