@@ -11,6 +11,7 @@ p {
 	font-size: 14px;
 	color: #666666;
 	max-width: 900px;
+	line-height: 20px;
 }
 
 
@@ -22,7 +23,7 @@ h2 {
 
 #title {
 	color: #EE0000;
-	font-size: 40px;
+	font-size: 44.5px;
 }
 
 #topNav a {
@@ -30,7 +31,7 @@ h2 {
 	color: #CDCDCD;
 	margin-right: .8em;
 	text-decoration: none;
-	border-bottom: 1.5px solid #CDCDCD;
+	border-bottom: 2px solid #E8E8E8;
 }
 
 #topNav {
@@ -51,7 +52,6 @@ h2 {
 #footer {
 	color:#CDCDCD;
 	font-size: .9em;
-	padding-top: 25px;
 }
 
 #copyright{
@@ -64,7 +64,7 @@ h2 {
   font-size: 80px;
   line-height: 0.5;
   padding-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   margin-right: 8px;
   color: #CDCDCD;
 }
@@ -85,7 +85,7 @@ h2 {
 .textContainer {
 	border-bottom: 2px solid #E8E8E8;
 	padding-bottom: 40px;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
 }
 
 .fadedText {
@@ -101,9 +101,3 @@ h2 {
 	border-bottom: 1px solid black;
 	padding-bottom: 50px;
 	margin-bottom: 10px;
-<<<<<<< HEAD
-}
-=======
-}
-}
->>>>>>> FETCH_HEAD
