@@ -1,0 +1,17 @@
+.light{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	background-color: green;
+}
+
+.lightContainer{
+	width: 200px;
+	height: 400px;
+	background-color: gray;
+	margin: 50px;
+	border-top-left-radius:3em;
+	border-top-right-radius:3em;
+	border-bottom-left-radius:3em;
+	border-bottom-right-radius:3em;
+}
