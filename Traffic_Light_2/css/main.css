@@ -21,6 +21,7 @@ button {
   border-top-right-radius:15px;
   border-bottom-left-radius:15px;
   border-bottom-right-radius:15px;
+  border: solid black 1px;
 }
 
 .light {
@@ -29,17 +30,34 @@ button {
   margin: 0 auto 25px auto;
   border: solid black 1.5px;
   border-radius: 50%;
+  transition: backround-color 2s ease 0s;
 }
 
 .green {
 	background-color: green;
 }
 
+.green:hover {
+	background-color: white;
+    opacity: .5;
+}
+
 .yellow {
 	background-color: yellow;
 }
+
+.yellow:hover {
+	background-color: white;
+    opacity: .5;
+}
+
 .red {
 	background-color: red;
+}
+
+.red:hover {
+	background-color: white;
+    opacity: .5;
 }
 
 .buttonContainer {
