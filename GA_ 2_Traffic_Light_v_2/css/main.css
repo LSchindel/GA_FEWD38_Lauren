@@ -3,7 +3,8 @@ button {
   margin-bottom: 30px;
   background-color: gray;
   color: white;
-  background-color: gray;
+  /* You already declared background-color in line 4 */
+  /* background-color: gray; */
   border-top-left-radius:5px;
   border-top-right-radius:5px;
   border-bottom-left-radius:5px;
@@ -15,7 +16,8 @@ button {
   background-color: gray;
   width: 100px;
   height: 260px;
-  display: inline-block;
+  /* Anything that is floated is automatically changed to display:block, so you display:inline-block won't do anything in this case */
+  /* display: inline-block; */
   float: left;
   border-top-left-radius:15px;
   border-top-right-radius:15px;
