@@ -1,2 +1,6 @@
-var lights = document.getElementsByClassName('light');
-console.log(lights[0]);
+click(turnOn){
+var go = document.getElementByClass("green");
+
+var lightOn = document.getElementByclass(turnOn);
+light.style.backgroundColor = turnOn;
+}
