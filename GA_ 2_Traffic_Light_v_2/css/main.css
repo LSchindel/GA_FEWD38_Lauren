@@ -29,35 +29,19 @@ button {
   height: 50px;
   margin: 0 auto 25px auto;
   border: solid black 1.5px;
-  border-radius: 50%;
-  transition: backround-color 2s ease 0s;
+  border-radius: 50%;s
 }
 
 .green {
 	background-color: green;
 }
 
-.green:hover {
-	background-color: white;
-    opacity: .5;
-}
-
 .yellow {
 	background-color: yellow;
 }
 
-.yellow:hover {
-	background-color: white;
-    opacity: .5;
-}
-
 .red {
 	background-color: red;
-}
-
-.red:hover {
-	background-color: white;
-    opacity: .5;
 }
 
 .buttonContainer {
