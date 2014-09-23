@@ -1,4 +1,4 @@
-click(turnOn){
+function click(turnOn){
 var go = document.getElementByClass("green");
 
 var lightOn = document.getElementByclass(turnOn);
