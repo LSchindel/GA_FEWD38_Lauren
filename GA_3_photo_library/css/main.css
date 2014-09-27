@@ -1,1 +1,68 @@
-main.css
+#header {
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+}
+
+#home {
+	background-color: beige;
+}
+
+#slideshow-container {
+	margin: 50px;
+}
+
+#placeHolder {
+	height: 100px;
+	width: 800px;
+	background-color: gray;
+}
+
+#placeHolder2 {
+	height: 400px;
+	width: 800px;
+	background-color: lightGray;
+}
+
+#footer {
+	color: red;
+	border-top: 2px solid black;
+}
+
+#prev {
+	margin-left: 350px;
+	position: relative;
+}
+
+#next {
+	margin-left: 50px;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+body {
+	font-family: 'helvetica', sans-serif;
+}
+
+//h2 {
+	margin: 35px;
+}
+
+button {
+//font-family: futura;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+button:hover {
+background-color: lightGray;
+}
+
