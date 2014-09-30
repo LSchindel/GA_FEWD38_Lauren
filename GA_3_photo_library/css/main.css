@@ -1,18 +1,18 @@
 #header {
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid #E1EDF1;
 	margin-bottom: 20px;
 }
 
 #home {
-	background-color: beige;
+	background-color: #FFFFD6;
 }
 
 #slideshow-container {
 	margin: 50px;
 }
 
-#placeHolder {
-	height: 100px;
+//#placeHolder {
+	height: 125px;
 	width: 800px;
 	background-color: gray;
 }
@@ -20,12 +20,13 @@
 #placeHolder2 {
 	height: 400px;
 	width: 800px;
-	background-color: lightGray;
+	background-color: #E1EDF1;
 }
 
-#footer {
+//#footer {
 	color: red;
-	border-top: 2px solid black;
+	border-top: 2px solid #E1EDF1;
+	padding-bottom: 20px;
 }
 
 #prev {
@@ -64,5 +65,12 @@ margin-bottom: 20px;
 
 button:hover {
 background-color: lightGray;
+}
+
+.thumbnail {
+	height: 100px;
+	width: auto;
+	position: relative;
+	margin-left: 38px;
 }
 
