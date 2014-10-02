@@ -1,35 +1,33 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
-<head>
-	<title>Photo Gallery</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<head>
+		<title>Photo Gallery</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
  	<script type="text/javascript" src="js/application.js"></script>
-</head>
-<body id="home">
+	</head>
+	<body>
 		<div id="header">
-				<h2>My<br />Photo<br />Gallery</h2>
-				<div id="topNav">
-					<a href="http://www.google.com">Bio</a>
-					<a href="http://www.google.com">Contact</a>
-				</div>
+			<h2>My<br/>Photo<br/>Gallery</h2>
+			<h3><a href="www.google.com">About</a>
+			<a href="www.google.com">Contact</a></h3>
 		</div>
-	<div id="slideshow-container">
+	<div id="mainContainer">
 		<div id="thumbnailContainer">
-			<img class="thumbnail" src="img/camping.JPG">
-			<img class="thumbnail" src="img/flower2.JPG">
-			<img class="thumbnail" src="img/flower.JPG">
-			<img class="thumbnail" src="img/cobb.JPG">
-			<div id="placeHolder">
+			<div class="thumb" onclick="changePicture(0)"><img src="img/camping.jpg" />
+			</div>
+			<div class="thumb" onclick="changePicture(1)"><img src="img/flower.jpg" />
+			</div>
+			<div class="thumb" onclick="changePicture(2)"><img src="img/flower2.jpg" />
+			</div>
+			<div class="thumb" onclick="changePicture(3)"><img src="img/cobb.jpg" />
 			</div>
 		</div>
-		<div id="mainImage">
-			<div id="placeHolder2">
-			</div>
+		<div id="mainImageContainer"></div>
+		<img id="mainImage" src="img/camping.jpg" />
+		<div id="controls">
+			<div id="prevButton" class="btn" onclick="nextImage()"> < </div>
+			<div id="nextButton" class="btn" onclick="prevImage()"> > </div>
 		</div>
 	</div>
-		<div class="button">
-			<button id="prev">Previous</button>
-			<button id="next">Next</button>
-		</div>
 </body>
 </html>
