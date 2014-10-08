@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background-color: gray;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'roboto', sans-serif;
+}
+
+p {
+  font-size: 22px;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background: red;
+  color: white;
+}
+
+img {
+  height: 300px;
+  border-radius: 20%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #FFADB9;
+}
+
+#name {
+  margin: 20px;
+  padding-left: 1000px;
+  padding-top: 50px;
+}
