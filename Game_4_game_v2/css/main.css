@@ -1,0 +1,19 @@
+body {
+	font-family: arial, sans-serif;
+	text-align: center;
+	margin-top: 40px;
+}
+
+img {
+	height: 125px;
+	width: auto;
+}
+
+img:hover {
+	height: 128px;
+	width: auto;
+}
+
+#scissors {
+	padding-top: 18px;
+}

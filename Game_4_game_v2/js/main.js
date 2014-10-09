@@ -1,6 +1,10 @@
 
-/* var userChoice = "paper";
+var userChoice = "paper";
 var computerChoice = "rock";
+
+function playHand() {
+//user selects choice 
+}
 
 var userWins= ["rockscissors", "paperrock", "scissorspaper"]
 
@@ -27,6 +31,10 @@ if(userChoice===computerChoice) {
 
 var outcomeMsg = evaluate();
 alert(outcomeMsg);
+
+document.getElementById("rock").reset();
+document.getElementById("paper").reset();
+document.getElementById("scissors").reset();
 
 
 /*bones missing:
