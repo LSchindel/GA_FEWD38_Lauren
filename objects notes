@@ -1,0 +1,61 @@
+objects
+
+allow for storing of related data together
+
+key value pairs
+
+var person= {
+	"name": "Zack Dinerstein",
+	"hometown": "Utica"
+}
+
+console.log(person.name)
+
+-> Zack Dinerstein
+
+OR
+
+console.log(person["name"]) **this must be used if key has a space in it, ie Zack Dinerstein**
+
+-> Zack Dinerstein
+
+they can store a ton of info basically
+
+
+var hoagies = {
+	"ingredients": ["salami", "cheese", "lettuce"],
+	"length": 1,
+	"tasty": true,
+}
+_____________________________________
+document.write(hoagies);
+console.log(hoagies);
+
+var hoagies = {
+	"ingredients": ["salami", "cheese", "lettuce"],
+	"length": 1,
+	"tasty": true,
+	"taste": {
+		"sweetness": 5,
+		"tangy": 9,
+		"sour": 0
+	}
+}
+
+document.write(hoagies.ingredients[2] + "</br>")
+document.write(hoagies.sweetness);
+_____________________________________
+looping:
+
+
+
+
+
+
+
+
+
+
+
+
+
