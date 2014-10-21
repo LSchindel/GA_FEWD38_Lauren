@@ -11,6 +11,10 @@ function handleSubmit(){
 	var data; 
 	displayRestaurants(data); 
 
+	$( "#target" ).click(function() {
+  alert( "Handler for .click() called." );
+});
+
 }
 
 function displayRestaurants(restaurants){
@@ -22,7 +26,7 @@ function displayRestaurants(restaurants){
 // user selects restaurant from the list
 
 function selectRestaurant() {
-	// choose restaruant
+	// choose restaurant
 	// get json to retrive information
 
 }
@@ -32,12 +36,25 @@ function selectRestaurant() {
 function showViolations() {
 	// use get json to select violations
 	// format information
-	// show violations
-	// show last inspection date
+	// show violations in html
+	// show last inspection date in html
 }
 
 // graphic recomends eating at or avoiding restuarant
 
 function showGraphic(){
+	// choose graphic based on selection
+	// display graphic
 
 }
+
+// reset application for a new search "start a new search"
+
+$('#configreset').click(function(){
+            $('#configform')[0].reset();
+ });
+
+
+
+
+

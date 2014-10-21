@@ -1,0 +1,8 @@
+Responsive Design
+______________________
+
+width - current viewing area
+
+device width - refer to the width of the device itself - screen resolution of the device
+
+media queries go in css
