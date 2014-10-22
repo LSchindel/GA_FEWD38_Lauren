@@ -1,0 +1,117 @@
+javascript recap:
+
+
+methods
+---------------
+methods perform a task. Hopefully just 1. repeatable tasks.
+
+ie: 
+	function doSomething(this is an argument){
+		//do some stuff
+	}
+
+	the argument comes from where you call it from
+
+	Global Variables
+	----------------
+	var firstName = "first";
+	var lastName = "last";
+
+	EXAMPLE
+	--------------------
+
+	var name = "lauren";
+  
+	function sayMyName(name) {
+ 	 alert(name)
+	}
+
+	sayMyName("stacy");
+
+	this function will call stacy and not lauren
+
+	EXAMPLE 2
+	----------------------
+	var name = "lauren";
+  
+	function sayMyName(name) {
+  		alert(name)
+		}
+
+	alert(name);
+
+	sayMyName("stacy");
+
+_____________________________________________________
+
+onClick is a "listener" it is listening for a behavior. It is an attribute on the element. the attribute listens for the click event, which then says once you click on this, do something.
+	
+	HTML:
+	<span> onClick="doSomething(2)">Click Me </span>
+
+	JS:
+	function doSomething(){
+		//do some stuff
+		alert(7 + num);
+	}
+
+	get an alert for 9 when you run the JS
+
+
+	*****Research global event attributes!*****
+
+-----------------------------------------
+
+getElementById
+
+EXAMPLE 1
+--------------
+HTML
+<div id="main">Hello</div>
+
+JS
+	function doSomething(){
+		var text = document.getElementById("main");
+	}
+
+EXAMPLE 2
+----------------
+HTML
+<div id="main"><p>Hello</p></div>
+
+JS
+	function doSomething(){
+		var text = document.getElementById("main").innerHTML;
+		alert(text);
+	}
+
+	innerHTML is a property that references the content of the tags, including any HTML. This will give you <p>Hello</p>
+
+EXAMPLE 3
+----------------
+HTML
+<div id="main"><p>Hello</p></div>
+
+JS
+	function doSomething(){
+		var text = document.getElementById("main").innerText;
+		alert(text);
+	}
+
+	This will give text alone! (just hello)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

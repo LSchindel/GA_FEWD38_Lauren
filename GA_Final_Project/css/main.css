@@ -1,43 +1,45 @@
 body {
   text-align: center;
-  background-color: gray;
+  background-image: url(../img/FEWD38-3.jpg);
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
   color: white;
   font-family: 'roboto', sans-serif;
 }
 
-p {
-  font-size: 22px;
+h3 {
+  margin-top: 350px;
+  color: black;
 }
 
 input {
-  border: 0;
+  border: solid #517FC0 2px;
   padding: 10px;
+  margin-top: 10px;
   font-size: 18px;
 }
 
 input[type="submit"] {
-  background: red;
+  background: #517FC0;
   color: white;
-}
-
-img {
-  height: 300px;
-  border-radius: 20%;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:hover {
-  color: #FFADB9;
+  color: #517FC0;
 }
 
 #name {
   margin: 20px;
   padding-left: 1000px;
   padding-top: 50px;
+  color: black;
+}
+
+//#input {
+  margin-top: 500px;
 }
