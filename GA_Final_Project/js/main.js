@@ -18,7 +18,16 @@ function getData(name, zip){
         type: "GET",
         url: requestURL, // the URL of our request that's set as a variable
         success: function(data) {
-        	displayRestaurants(data);
+        	console.log(data);
+        	if(data.response.data.length>0){
+        		displayRestaurants(data);
+        	} else {
+        		displaySorry(); 
+        	}
+        	
+        },
+        error: function(){
+        	alert("sorry, something went wrong"); 
         }
     })
 };
@@ -32,6 +41,10 @@ function displayRestaurants(json){
 		var street = data[i]["street_address"];
 		insertHTML(name, street, currentGrade);
 	}
+}
+
+function displaySorry() {
+	$('#result').append("<div class='sorryDiv'>Sorry, no restaurants match that name. Please check your spelling and zip code and try again.</div>")
 }
 
 function insertHTML(name, street, grade){
