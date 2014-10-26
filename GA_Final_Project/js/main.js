@@ -26,7 +26,7 @@ function getData(name, zip){
 function displayRestaurants(json){
 	var response = json["response"];
 	var data = response["data"];
-	for(var i=0; i < data.length; i++) {
+	for (var i=0; i < data.length; i++) {
 		var name = data[i]["dba"];
 		var currentGrade = data[i]["current_grade"];
 		var street = data[i]["street_address"];
@@ -35,6 +35,7 @@ function displayRestaurants(json){
 }
 
 function insertHTML(name, street, grade){
-	var html = '<div class="rest"><p>'+name+'</p>'+'<p>'+street+'</p><p>'+grade+'</p>'+'</div>';
+	var html = '<div class="rest-container"><div class="rest"><p class="rest-name">'+name+'</p>'+'<p class="rest-street">'+street+'</p><p class="rest-grade">'+grade+'</p>'+'</div></div>';
 	$("#result").append(html);
 }
+
